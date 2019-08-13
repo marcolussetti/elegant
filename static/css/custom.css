@@ -16,3 +16,7 @@
 .navbar-brand span {
     margin-left: 0.5rem;
 }
+
+.navbar {
+    margin-bottom: 0 !important;
+}
