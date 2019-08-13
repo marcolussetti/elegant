@@ -1,0 +1,18 @@
+.navbar {
+    font-family: 'Fira Sans', serif;
+    text-transform: lowercase;
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+}
+
+.navbar-brand {
+    font-family: 'Fira Sans', serif;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+.navbar-brand span {
+    margin-left: 0.5rem;
+}
