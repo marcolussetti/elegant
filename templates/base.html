@@ -60,20 +60,18 @@
     <script defer src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 
-<body>
-    <div id="content">
-        <div class="container-fluid">
-            <div class="row-fluid">
-                <div class="span1"></div>
-                <div class="span10">
-                    {% block content %}
-                    {% endblock content %}
-                </div>
-                <div class="span1"></div>
+<body class="has-navbar-fixed-bottom">
+    <div class="section">
+        <div class="container">
+            <div class="span1"></div>
+            <div class="span10">
+                {% block content %}
+                {% endblock content %}
             </div>
+            <div class="span1"></div>
         </div>
     </div>
-    {% include '_includes/footer.html' %}
+    <!-- {% include '_includes/footer.html' %} -->
     {% block script %}
     {% if AMAZON_BESTAZON %}
     {% include '_includes/bestazon.html' %}
