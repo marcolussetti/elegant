@@ -20,3 +20,11 @@
 .navbar {
     margin-bottom: 0 !important;
 }
+
+.tooltip {
+    position: relative;
+    z-index: unset;
+    display: flex;
+    font-size: unset;
+    opacity: 1;
+}
