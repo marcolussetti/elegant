@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+
     {% if CLAIM_GOOGLE %}
     {% include '_includes/claim_google.html' with context %}
     {% endif %}
@@ -53,10 +56,8 @@
     {% endblock feed_links %}
     {% include '_includes/analytics.html' %}
     <!-- Added custom stuff -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script defer src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 
 <body>
@@ -77,7 +78,7 @@
     {% if AMAZON_BESTAZON %}
     {% include '_includes/bestazon.html' %}
     {% endif %}
-    <script src="//code.jquery.com/jquery.min.js"></script>
+    <!-- <script src="//code.jquery.com/jquery.min.js"></script> -->
     <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
     <script>
         function validateForm(query) {
